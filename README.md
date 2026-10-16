@@ -18,6 +18,7 @@ GitHub Pages: niemand hoeft iets te installeren of te betalen.
 | Meta en World Resources Institute | echte bomen (plek en hoogte) | CC BY 4.0 |
 | Copernicus Sentinel-2 | de echte kleur van velden, weides, bossen en heide | bevat aangepaste Copernicus Sentinel-gegevens |
 | Mapillary | straatlantaarns, banken, borden, brandkranen, verkeerslichten | CC BY-SA 4.0 |
+| Verkeersborden.Vlaanderen, Agentschap Wegen en Verkeer (alleen Vlaanderen) | de echte verkeersborden met hun bordcode | open data van AWV |
 | Digitaal Vlaanderen (alleen Vlaanderen) | GRB-gebouwen en -percelen, wegvlakken, dakkleuren uit luchtfoto's, dakvormen uit LiDAR (DHMV II) | Modellicentie Gratis Hergebruik |
 
 De kaarten zelf vallen onder de **ODbL** (Open Database License), net als OpenStreetMap.
