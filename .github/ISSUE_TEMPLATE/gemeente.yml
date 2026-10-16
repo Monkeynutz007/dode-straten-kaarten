@@ -1,0 +1,38 @@
+name: Gemeente aanvragen
+description: Vraag een kaart van je gemeente aan voor Dode Straten. De kaartfabriek maakt ze vanzelf (meestal binnen een paar uur).
+title: "Kaart: "
+labels: ["aanvraag"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        De kaartfabriek maakt een kaart van de **hele gemeente** uit open data: OpenStreetMap, Overture, echte bomen,
+        echte kleuren van het land, straatobjecten van Mapillary, en in Vlaanderen ook het GRB, luchtfoto's en
+        dakvormen gemeten met LiDAR. Als ze klaar is, krijg je hier een bericht en staat ze in het spel bij
+        **Online kaarten**.
+  - type: input
+    id: gemeente
+    attributes:
+      label: Gemeente
+      description: De naam zoals op openstreetmap.org, bv. "Kalmthout" of "Sint-Katelijne-Waver".
+      placeholder: Kalmthout
+    validations:
+      required: true
+  - type: dropdown
+    id: land
+    attributes:
+      label: Land
+      options:
+        - BE (België)
+        - NL (Nederland)
+        - LU (Luxemburg)
+        - DE (Duitsland)
+        - FR (Frankrijk)
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: waarom
+    attributes:
+      label: Waarom?
+      description: Niet verplicht. Woon je er, of wil je er gewoon zombies ontlopen?
