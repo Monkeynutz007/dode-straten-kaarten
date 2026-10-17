@@ -1,0 +1,31 @@
+{
+ "versie": 1,
+ "bijgewerkt": "2026-10-17",
+ "kaarten": [
+  {
+   "id": "be-essen",
+   "naam": "Essen",
+   "land": "BE",
+   "plaats": "Essen, België",
+   "bestand": "be-essen/be-essen.vakken",
+   "mb": 12.6,
+   "bounds": [
+    4.379317,
+    51.415486,
+    4.548161,
+    51.482398
+   ],
+   "bijgewerkt": "2026-10-17",
+   "osm": "Q724283",
+   "controle": "be-essen/controle-wegen.png",
+   "bronnen": [
+    "OpenStreetMap (ODbL)",
+    "Overture Maps (ODbL)",
+    "Meta/WRI boomhoogtekaart (CC BY 4.0)",
+    "Copernicus Sentinel-2",
+    "Digitaal Vlaanderen: GRB, luchtfoto's, DHMV II (Modellicentie Gratis Hergebruik)",
+    "Verkeersborden.Vlaanderen (AWV)"
+   ]
+  }
+ ]
+}
